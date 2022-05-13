@@ -1,0 +1,9 @@
+{
+    "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg",
+    "name": "bicep-dev-sa-rg",
+    "location": "southafricanorth",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded"
+    }
+}

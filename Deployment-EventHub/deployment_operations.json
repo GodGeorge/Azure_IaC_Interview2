@@ -1,0 +1,48 @@
+[
+  {
+    "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.Resources/deployments/Microsoft.Template-20220512213220/operations/CF605DB69EB85CF8",
+    "operationId": "CF605DB69EB85CF8",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-05-12T18:35:15.6987006Z",
+      "duration": "PT2M44.568447S",
+      "trackingId": "2a752746-87ad-4fd2-ba5f-02a678b8642e",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.EventHub/namespaces/hireeventhubns/eventhubs/hireeventhub",
+        "resourceType": "Microsoft.EventHub/namespaces/eventhubs",
+        "resourceName": "hireeventhubns/hireeventhub"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.Resources/deployments/Microsoft.Template-20220512213220/operations/327ADE68DBD9E50A",
+    "operationId": "327ADE68DBD9E50A",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-05-12T18:35:09.5563293Z",
+      "duration": "PT2M38.4260757S",
+      "trackingId": "353e51a5-d0e4-4baf-add1-39a9d537de27",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.EventHub/namespaces/hireeventhubns",
+        "resourceType": "Microsoft.EventHub/namespaces",
+        "resourceName": "hireeventhubns"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.Resources/deployments/Microsoft.Template-20220512213220/operations/08585492265398031375",
+    "operationId": "08585492265398031375",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-05-12T18:35:15.93586Z",
+      "duration": "PT2M44.8056064S",
+      "trackingId": "98f41012-74f8-4666-8ade-4b36dfcfdeb3",
+      "statusCode": "OK"
+    }
+  }
+]

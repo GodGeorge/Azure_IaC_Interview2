@@ -1,0 +1,31 @@
+[
+  {
+    "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.Resources/deployments/Microsoft.ContainerInstances-20220513141748/operations/B1B7D52EF1C3579E",
+    "operationId": "B1B7D52EF1C3579E",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-05-13T11:20:36.6421076Z",
+      "duration": "PT52.8180079S",
+      "trackingId": "1ef2a5c0-940d-4392-a72a-6ce5094a2965",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.ContainerInstance/containerGroups/paymentcoreaci",
+        "resourceType": "Microsoft.ContainerInstance/containerGroups",
+        "resourceName": "paymentcoreaci"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.Resources/deployments/Microsoft.ContainerInstances-20220513141748/operations/08585491661068999695",
+    "operationId": "08585491661068999695",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-05-13T11:20:36.7181136Z",
+      "duration": "PT52.8940139S",
+      "trackingId": "19d9b4ab-dca9-4c36-a47e-93762f17b76a",
+      "statusCode": "OK"
+    }
+  }
+]

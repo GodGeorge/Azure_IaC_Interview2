@@ -1,0 +1,91 @@
+{
+  "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.Resources/deployments/Microsoft.ContainerInstances-20220513141748",
+  "name": "Microsoft.ContainerInstances-20220513141748",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourcegroups/bicep-dev-sa-rg/providers/Microsoft.ContainerInstance/containerGroups/paymentcoreaci",
+    "marketplaceItemId": "Microsoft.ContainerInstances"
+  },
+  "properties": {
+    "templateHash": "2645587760982341707",
+    "parameters": {
+      "availabilityZones": {
+        "type": "Array",
+        "value": []
+      },
+      "location": {
+        "type": "String",
+        "value": "southafricanorth"
+      },
+      "containerName": {
+        "type": "String",
+        "value": "paymentcoreaci"
+      },
+      "imageType": {
+        "type": "String",
+        "value": "Public"
+      },
+      "imageName": {
+        "type": "String",
+        "value": "wanjala/mkopa-testing"
+      },
+      "osType": {
+        "type": "String",
+        "value": "Linux"
+      },
+      "numberCpuCores": {
+        "type": "String",
+        "value": "1"
+      },
+      "memory": {
+        "type": "String",
+        "value": "1.5"
+      },
+      "restartPolicy": {
+        "type": "String",
+        "value": "OnFailure"
+      },
+      "ipAddressType": {
+        "type": "String",
+        "value": "Public"
+      },
+      "ports": {
+        "type": "Array",
+        "value": [
+          {
+            "port": "80",
+            "protocol": "TCP"
+          }
+        ]
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2022-05-13T11:20:36.7406063Z",
+    "duration": "PT56.2073088S",
+    "correlationId": "31004c0a-0f8c-41bf-a16d-ffb2eafe375d",
+    "providers": [
+      {
+        "namespace": "Microsoft.ContainerInstance",
+        "resourceTypes": [
+          {
+            "resourceType": "containerGroups",
+            "locations": [
+              "southafricanorth"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.ContainerInstance/containerGroups/paymentcoreaci"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

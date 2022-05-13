@@ -1,0 +1,79 @@
+{
+  "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.Resources/deployments/Microsoft.Template-20220512213220",
+  "name": "Microsoft.Template-20220512213220",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "marketplaceItemId": "Microsoft.Template"
+  },
+  "properties": {
+    "templateLink": {
+      "uri": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/quickstarts/microsoft.eventhub/eventhubs-create-namespace-and-eventhub/azuredeploy.json",
+      "contentVersion": "1.0.0.0"
+    },
+    "templateHash": "16940368634879422816",
+    "parameters": {
+      "projectName": {
+        "type": "String",
+        "value": "hireeventhub"
+      },
+      "location": {
+        "type": "String",
+        "value": "southafricanorth"
+      },
+      "eventHubSku": {
+        "type": "String",
+        "value": "Standard"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2022-05-12T18:35:16.0060041Z",
+    "duration": "PT2M48.3126062S",
+    "correlationId": "6535dbf4-9418-4e04-aedb-02c439c62723",
+    "providers": [
+      {
+        "namespace": "Microsoft.EventHub",
+        "resourceTypes": [
+          {
+            "resourceType": "namespaces",
+            "locations": [
+              "southafricanorth"
+            ]
+          },
+          {
+            "resourceType": "namespaces/eventhubs",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.EventHub/namespaces/hireeventhubns",
+            "resourceType": "Microsoft.EventHub/namespaces",
+            "resourceName": "hireeventhubns"
+          }
+        ],
+        "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.EventHub/namespaces/hireeventhubns/eventhubs/hireeventhub",
+        "resourceType": "Microsoft.EventHub/namespaces/eventhubs",
+        "resourceName": "hireeventhubns/hireeventhub"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.EventHub/namespaces/hireeventhubns"
+      },
+      {
+        "id": "/subscriptions/9bf736dd-5949-4413-aa6d-c0fdef05c2a4/resourceGroups/bicep-dev-sa-rg/providers/Microsoft.EventHub/namespaces/hireeventhubns/eventhubs/hireeventhub"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
